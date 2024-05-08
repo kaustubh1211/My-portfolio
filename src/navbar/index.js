@@ -5,7 +5,8 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div>
-      <nav className="flex items-center justify-between flex-wrap p-6">
+      <nav className="flex items-center justify-between flex-wrap p-6 ">
+        
         <div className="flex items-center flex-shrink-0 text-white mr-6 lg:mr-72">
           <img
             src=" /kp-high-resolution-logo.jpeg"
