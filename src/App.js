@@ -30,9 +30,8 @@ function App() {
   return (
     <ThemeProvider theme={darkTheme}>
       <Body>
-      <Navbar />
+        <Navbar />
         <Hero />
-
         <Wrapper>
           <Skill />
           <Education />
