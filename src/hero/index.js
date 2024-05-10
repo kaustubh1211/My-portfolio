@@ -3,12 +3,9 @@ import React from "react";
 export default function Hero() {
   return (
     <div className="w-screen " id="home">
-    
       <div className="">
         <div className=" inset-0 lg:top-[180px] sm:top-1    mx-auto sm:px-16 px-6 lg:flex lg:flex-row items-start gap-5 mt-20">
-      
-
-          <div>
+          <div className=" lg:ml-20">
             <h1
               className={`font-black text-white lg:text-[80px] sm:text-[60px] xs:text-[50px] text-[40px] lg:leading-[98px] mt-2 `}
             >
@@ -22,7 +19,11 @@ export default function Hero() {
             </p>
           </div>
           <div className=" relative">
-            <img src="/kJ63zp01.svg"   className="  w-[30rem] lg:mr-80 lg:mt-[-4rem]   " alt="Computer-image" />
+            <img
+              src="/kJ63zp01.svg"
+              className="  w-[30rem] lg:mr-80 lg:mt-[-4rem]   "
+              alt="Computer-image"
+            />
           </div>
         </div>
       </div>

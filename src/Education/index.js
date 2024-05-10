@@ -1,5 +1,5 @@
 import React from "react";
-import { education } from "../data/constant";
+import { education ,skills} from "../data/constant";
 
 export default function Education() {
   return (
@@ -23,7 +23,7 @@ export default function Education() {
       <h1 className=" text-3xl mt-3 "> Education</h1>
       <p className="text-lg mt-2">This is a summary of my educational background. </p>
         </div>
-        <div className="flex flex-row m-4 ">
+        <div className="flex flex-wrap m-4 ">
             {education.map((educations)=>(
               <div key={educations.year} className="p-4 lg:w-1/3">
                 <div className="h-full bg-gray-800 p-8 rounded">
@@ -37,7 +37,9 @@ export default function Education() {
                 </div>
               </div>
             ))}
+
         </div>
+   
       </div>
 
     </div>

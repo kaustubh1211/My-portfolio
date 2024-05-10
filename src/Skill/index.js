@@ -3,7 +3,7 @@ import { skills } from "../data/constant";
 
 export default function Skill() {
   return (
-    <div className="  w-screen  mt-24   " id="skill">
+    <div className="  w-screen lg:mt-28   " id="skill">
       <div className=" container px-5 mx-auto ">
         <div className=" text-center  mt-7 mb-5 ">
           <h1 className="text-white text-4xl font-semibold "> Skills and technology</h1>
@@ -19,13 +19,17 @@ export default function Skill() {
                 src={skill.img}
               ></img>
               <span className="title-font font-medium text-white">
-                {" "}                                                                       
+                {" "}
                 {skill.title}{" "}
+                
               </span>
+           
             </div>
+            
           </div>
         ))}
       </div>
+      
     </div>
   );
 }
