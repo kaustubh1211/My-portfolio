@@ -2,19 +2,11 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <div className="w-screen h-screen">
-      <div className="   items-center flex-shrink-0 text-white absolute mx-auto ">
-        <img
-          src="/herobg.png"
-          className=" w-screen h-screen"
-          alt="hero-image"
-        />
-      </div>
+    <div className="w-screen " id="home">
+    
       <div className="">
-        <div className="absolute inset-0 lg:top-[180px]   mx-auto sm:px-16 px-6 lg:flex lg:flex-row items-start gap-5">
-          <div className="flex flex-col justify-center items-center mt-5">
-            <div className="w-1 sm:h-80 h-40 violet-gradient" />
-          </div>
+        <div className=" inset-0 lg:top-[180px] sm:top-1    mx-auto sm:px-16 px-6 lg:flex lg:flex-row items-start gap-5 mt-20">
+      
 
           <div>
             <h1
