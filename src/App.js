@@ -5,6 +5,7 @@ import Navbar from "./navbar";
 import Hero from "./hero";
 import Skill from "./Skill";
 import Education from "./Education";
+import Project from "./project";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -35,6 +36,7 @@ function App() {
         <Wrapper>
           <Skill />
           <Education />
+          <Project />
         </Wrapper>
       </Body>
     </ThemeProvider>

@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className=" sticky top-0 z-50">
-      <nav className="flex items-center justify-between flex-wrap p-6 w-screen ">
+    <div className="  top-0 z-50">
+      <nav className=" md:sticky flex items-center justify-between flex-wrap p-6  ">
         <div className="flex items-center flex-shrink-0 text-white mr-6 lg:mr-20  ">
           <img
             src=" /kp-high-resolution-logo.jpeg"
