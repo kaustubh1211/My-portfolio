@@ -10,7 +10,7 @@ export default function Project() {
         <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white text-center">
           Projects
         </h1>
-        <p className=" text-lg lg:w-2/3 mx-auto leading-relaxed text-base text-center">
+        <p className=" text-lg lg:w-2/3 mx-auto leading-relaxed  text-center">
           Dive into my portfolio and explore a world of diverse projects.
         </p>
       </div>
