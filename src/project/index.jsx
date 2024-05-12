@@ -23,7 +23,7 @@ export default function Project() {
               src={project.image}
             />
             <div className="p-4">
-              <h2 className="text-lg text-center font-medium text-purple-400 mb-1">
+              <h2 className="text-lg text-center font-medium text-purple-400 mb-1  ">
                 {project.subtitle}
               </h2>
               <h1 className="text-xl text-center font-medium text-white mb-3">
