@@ -21,7 +21,7 @@ export default function Skill() {
               <span className="title-font font-medium text-white">
                 {" "}
                 {skill.title}{" "}
-                
+                  
               </span>
            
             </div>

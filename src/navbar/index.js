@@ -67,7 +67,7 @@ export default function Navbar() {
             <a href="https://www.github.com/kaustubh1211" target="_blank">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-8 w-7 "
+                className="h-8 w-7 hover:w-8 "
                 fill="currentColor"
                 style={{ color: "white" }}
                 viewBox="0 0 24 24"
@@ -78,7 +78,7 @@ export default function Navbar() {
             <a href="https://www.linkedin.com/in/kaustubh-patil-8645b923a/" target="_blank">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-7 w-7"
+                className="h-7 w-7 hover:w-8"
                 fill="currentColor"
                 style={{ color: "#0077b5" }}
                 viewBox="0 0 24 24"
@@ -90,7 +90,7 @@ export default function Navbar() {
             <a href="https://twitter.com/Kaustub1111" target="_blank">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-8 w-7"
+                className="h-8 w-7 hover:w-8"
                 fill="currentColor"
                 style={{ color: "#1da1f2" }}
                 viewBox="0 0 24 24"
