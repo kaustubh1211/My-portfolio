@@ -70,6 +70,20 @@ export const projects = [
   {
     title: "SpeakLingo",
     subtitle: "#React #Websocket #node.js #firebase",
+    tags: [
+      {
+        name: "react",  
+      },
+      {
+        name: "websocket",
+      },
+      {
+        name:"node.js",
+      },
+      {
+        name:"firebase",
+      }
+    ],
     description:
       " SpeakLingo, users can improve their language skills by speaking directly into the platform, which then provides feedback and guidance based on their pronunciation and comprehension. Additionally, SpeakLingo offers an engaging challenge feature, allowing users to compete with friends in real-time language challenges using WebSocket technology. ",
     image: "./Project-img/speaklingo.png",
@@ -79,6 +93,20 @@ export const projects = [
   {
     title: "E-commerce-application",
     subtitle: "#React #CSS #Bootstrap  #JSON data",
+    tags: [
+      {
+        name: "react",  
+      },
+      {
+        name: "css",
+      },
+      {
+        name:"Bootstrap",
+      },
+      {
+        name:"JSON data"
+      },
+    ],
     description:
       "My e-commerce project is a React-based web application that integrates JSON data to display products. It provides users with an intuitive shopping experience, allowing them to browse through a variety of products and make purchases seamlessly",
     image: "./Project-img/E-commerce.png ",
@@ -88,6 +116,17 @@ export const projects = [
   {
     title: "Squad-chat ",
     subtitle: "#React #node.js  #Webscoket",
+    tags: [
+      {
+        name: "react",  
+      },
+      {
+        name: "node.js",
+      },
+      {
+        name:"webscoket",
+      },
+    ],
     description:
       "a real-time chat application built with React, Node.js, Express, Socket io chat app crafted with love while diving deep into the world of websockets and Node.js.",
     image: "./Project-img/Squad-chat.png",
