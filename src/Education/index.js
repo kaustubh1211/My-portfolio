@@ -1,5 +1,6 @@
 import React from "react";
 import { education ,skills} from "../data/constant";
+import Tilt from 'react-parallax-tilt';
 
 export default function Education() {
   return (
@@ -26,7 +27,9 @@ export default function Education() {
         <div className="flex flex-wrap m-4 p-4  ">
             {education.map((educations)=>(
               <div key={educations.year} className="p-4 lg:w-1/3 ">
-                <div className="h-full bg-gray-800 p-8 rounded hover:p-9">
+                <Tilt>
+
+                <div className="h-full bg-gray-800 p-8 rounded ">
                   <h2 className="text-white font-semibold text-center">
                     {educations.branch}
                   </h2>
@@ -35,6 +38,7 @@ export default function Education() {
                   </p>
                   <p className="text-center mt-4 text-gray-300">{educations.year}</p>
                 </div>
+                </Tilt>
               </div>
             ))}
 

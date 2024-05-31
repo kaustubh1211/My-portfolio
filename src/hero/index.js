@@ -1,4 +1,5 @@
 import React from "react";
+import Tilt from 'react-parallax-tilt'
 
 export default function Hero() {
   return (
@@ -19,11 +20,14 @@ export default function Hero() {
             </p>
           </div>
           <div className=" relative">
+            <Tilt>
+
             <img
               src="/kJ63zp01.svg"
               className="  w-[30rem] lg:mr-80 lg:mt-[-4rem]   "
               alt="Computer-image"
-            />
+              />
+              </Tilt>
           </div>
         </div>
       </div>

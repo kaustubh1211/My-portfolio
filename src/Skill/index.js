@@ -1,5 +1,6 @@
 import React from "react";
 import { skills } from "../data/constant";
+import Tilt from 'react-parallax-tilt';
 
 export default function Skill() {
   return (
@@ -11,7 +12,9 @@ export default function Skill() {
       </div>
       <div className="flex flex-wrap lg:w-4/5  sm:mx-auto sm:mb-2 -mx-2">
         {skills.map((skill) => (
+          
           <div key={skill.title} className="p-2 sm:w-1/2 w-full ">
+            <Tilt> 
             <div className=" bg-gray-800 rounded flex p-5  h-full items-center hover:bg-gray-500  ">
               <img
                 className="w-6 h-6 flex-shrink-0 mr-4"
@@ -26,6 +29,7 @@ export default function Skill() {
            
             </div>
             
+                </Tilt>
           </div>
         ))}
       </div>
